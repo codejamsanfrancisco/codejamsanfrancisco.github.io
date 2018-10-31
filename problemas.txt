@@ -1,0 +1,6 @@
+1) problemas al insertar mail to
+2) Instertar direccion URI ONLINE JUDGE
+3) hay que insertar el formulario
+4) insertar urls de contacto
+5) dominio
+6) reubicar el ultimo baner de la pagina de inicio(no queda centrado)
