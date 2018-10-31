@@ -2399,7 +2399,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: #00c4cc;
 				color: #ffffff;
 			}
 
@@ -3141,7 +3141,7 @@
 		background-attachment: scroll,							fixed;
 		background-color: #00c4cc;
 		color: #fff;
-		padding: 5em 0 10em 0;
+		padding: 2em 0 10em 0;
 		text-align: center;
 	}
 
@@ -3352,7 +3352,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 10em 0 18em 0;
+				padding: 5em 0 18em 0;
 			}
 
 	}
@@ -3383,6 +3383,10 @@
 					font-size: 3.5em;
 				}
 
+			#banner img{
+				width: 40%;
+			}
+
 	}
 
 /* Narrow */
@@ -3393,6 +3397,10 @@
 
 			body, input, select, textarea {
 				font-size: 11pt;
+			}
+
+			#banner img{
+				width: 30%;
 			}
 
 	}
@@ -3624,6 +3632,10 @@
 				transform: translateX(0);
 			}
 
+			#banner img{
+				width: 40%;
+			}
+
 	}
 
 /* Mobile */
@@ -3756,6 +3768,10 @@
 					padding-left: 0;
 				}
 
+			#banner img{
+				width: 50%;
+			}
+
 	}
 
 /* Mobile (Portrait) */
@@ -3862,6 +3878,10 @@
 
 			#cta {
 				padding: 2.5em 1em 3em 1em;
+			}
+
+			#banner img{
+				width: 70%;
 			}
 
 	}
