@@ -1,5 +1,8 @@
-* Revisar formulario de inscripción
 * Revisar reglamento
+* Planilla para invitar y anotar direcciones de correo
+* 
 * Mail
 * Barra de navegación
 * Favicon
+
+* DONE: Revisar formulario de inscripción
