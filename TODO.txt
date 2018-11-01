@@ -1,0 +1,5 @@
+* Revisar formulario de inscripción
+* Revisar reglamento
+* Mail
+* Barra de navegación
+* Favicon

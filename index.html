@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/toastr.min.css" />
 		<link rel="shortcut icon" href="favicon.png" /> 
 	</head>
 	<body class="landing is-preload">
@@ -34,9 +35,7 @@
 			<!-- Banner -->
 				<section id="banner">
 					<img src="images/narrow.png">
-					<ul class="actions special">
-							<li><a href="#" class="button alt">¡Quiero participar!</a></li>
-					</ul>
+					
 				</section>
 
 			<!-- Main -->
@@ -84,6 +83,16 @@
 						</div>
 					</section>
 
+					<section class="box special">
+							<header class="major">
+								<h2>¿Qué estás esperando?</h2>
+									<br>
+									<ul class="actions special">
+											<li><a href="#" class="button button-inscribir">¡Inscribí a tu equipo!</a></li>
+									</ul>
+							</header>
+					</section>
+	
 
 					<section class="box special">
 						<div class="row">
@@ -102,24 +111,17 @@
 								
 											
 							</div>
-						</section>
+						</div>
+						<div class="row">
+							<div class="col-12 col-12-mobilep">
+								<!---h3>Sponsors</h3 -->
+							</div>
+						</div>
+					</section>
 					
-					<section class="box">
-							
-							<div class="row">
-								<div class="col-12 col-12-mobilep" style="text-align: center;">
-										<h4>Sponsors</h4>
-										
-								</div>
-	
-								<div class="col-6 col-12-mobilep">
-										
-									
-												
-								</div>
-							</section>	
+					
 
-
+					<!--
 					<section class="box special">
 						<div class="row">
 							
@@ -149,25 +151,17 @@
 											
 							</div>
 						</section>	
+						-->
 							
 							
-							<section class="box special">
-								<header class="major">
-									<h2>¿Qué estás esperando?</h2>
-										<br>
-										<ul class="actions special">
-												<li><a href="#" class="button alt">Inscribirse</a></li>
-										</ul>
-									</header>
-							</section>
 
 					<section class="box special">
 						<header class="major">
-							<h3>¿Querés enterarte cuando haya más novedades?</h3>
-							<form method="post" action="#">
+							<h4>¿Querés enterarte de las últimas novedades?</h4>
+							<form class="ajaxForm" action="https://formcarry.com/s/MsfSDoeOXkA" method="POST" accept-charset="UTF-8" >
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-9 col-12-mobilep">
-											<input type="text" name="suscribe" id="query" value="">
+											<input type="email" name="suscribe" id="query" value="">
 										</div>
 										<div class="col-3 col-12-mobilep">
 											<input type="submit" value="Suscribirse" class="fit alt">
@@ -183,11 +177,14 @@
 				
 
 			<!-- DIVISOR POSTERIOR -->
-				<footer id="footer">
-					Escuela Experimental San Francisco<br>
-					Las Guayanas N° 584<br>
-					escuelaexperimentalsanfco@gmail.com<br>
-					(03564) 312889
+				<footer id="footer" style="text-align: left;">
+					<ul class="copyright">
+						<li><i class="icon fas fa-home"></i>&nbsp;&nbsp;&nbsp;Escuela Experimental San Francisco</li>
+						<li><i class="icon fas fa-map-marker"></i>&nbsp;&nbsp;&nbsp;Las Guayanas N° 584</li>
+						<li><i class="icon fal fa-envelope"></i>&nbsp;&nbsp;&nbsp;escuelaexperimentalsanfco@gmail.com</li>
+						<li><i class="icon fas fa-phone"></i>&nbsp;&nbsp;&nbsp;(03564) 312889</li>
+					</ul>
+					
 				</footer>
 
 		</div>
@@ -199,7 +196,9 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/toastr.min.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>

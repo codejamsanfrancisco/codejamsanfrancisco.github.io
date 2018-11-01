@@ -83,6 +83,7 @@
 	body {
 		-ms-overflow-style: scrollbar;
 	}
+	
 
 	@media screen and (max-width: 480px) {
 
@@ -119,7 +120,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #00c4cc;
 		text-decoration: none;
 	}
 
@@ -2105,8 +2106,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #00c4cc;
+			box-shadow: 0 0 0 2px #00c4cc;
 		}
 
 	select {
@@ -2206,8 +2207,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e89980;
-			box-shadow: 0 0 0 1px #e89980;
+			border-color: #00c4cc;
+			box-shadow: 0 0 0 1px #00c4cc;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2825,7 +2826,7 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e89980;
+			background-color: #00c4cc;
 			color: #ffffff !important;
 		}
 
@@ -2856,6 +2857,15 @@
 			cursor: default;
 			opacity: 0.25;
 		}
+	
+	.button-inscribir{
+		background-color: #00c4cc;
+		font-weight: bold;
+	}
+
+	.button-inscribir:hover{
+		background-color: #19d8df;
+	}
 
 /* Header */
 
@@ -3106,7 +3116,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: #00c4cc;
 				color: #ffffff;
 			}
 
@@ -3229,7 +3239,7 @@
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #272c33;
 		padding: 4em 0 6em 0;
 		text-align: center;
 	}
@@ -3260,7 +3270,7 @@
 			}
 
 			#footer .copyright li {
-				border-left: solid 1px #dddddd;
+				border-left: solid 1px #d9d9d9;
 				display: inline-block;
 				list-style: none;
 				margin-left: 1em;
@@ -3276,7 +3286,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #00c4cc;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3298,7 +3308,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #00c4cc;
 		}
 
 		#cta input[type="text"],
@@ -3504,6 +3514,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
+				display: none;
 			}
 
 				#navButton .toggle {
