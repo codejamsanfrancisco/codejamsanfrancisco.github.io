@@ -1,8 +1,8 @@
-* Revisar reglamento
-* Planilla para invitar y anotar direcciones de correo
-* 
 * Mail
+* Folleto para escuelas
 * Barra de navegación
 * Favicon
 
 * DONE: Revisar formulario de inscripción
+* DONE: Revisar reglamento
+* DONE: Planilla para invitar y anotar direcciones de correo
