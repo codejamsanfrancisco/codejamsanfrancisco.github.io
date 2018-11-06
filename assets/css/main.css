@@ -3896,3 +3896,15 @@
 			}
 
 	}
+
+	.sponsor img{
+		transition-property: transform;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-out;
+	}
+
+	.sponsor img:hover{
+		transition-property: transform;
+		transition-duration: 0.2s;
+		transform: scale(1.05);
+	}
