@@ -120,7 +120,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #00c4cc;
+		color: #ed1b24;
 		text-decoration: none;
 	}
 
@@ -2106,8 +2106,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #00c4cc;
-			box-shadow: 0 0 0 2px #00c4cc;
+			border-color: #ed1b24;
+			box-shadow: 0 0 0 2px #ed1b24;
 		}
 
 	select {
@@ -2207,8 +2207,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #00c4cc;
-			box-shadow: 0 0 0 1px #00c4cc;
+			border-color: #ed1b24;
+			box-shadow: 0 0 0 1px #ed1b24;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2400,7 +2400,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #00c4cc;
+				background: #ed1b24;
 				color: #ffffff;
 			}
 
@@ -2826,7 +2826,7 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #00c4cc;
+			background-color:#ed1b24;
 			color: #ffffff !important;
 		}
 
@@ -2859,12 +2859,12 @@
 		}
 	
 	.button-inscribir{
-		background-color: #00c4cc;
+		background-color: #ed1b24;
 		font-weight: bold;
 	}
 
 	.button-inscribir:hover{
-		background-color: #19d8df;
+		background-color: #fd0814;
 	}
 
 /* Header */
@@ -3116,7 +3116,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #00c4cc;
+				background: #ed1b24;
 				color: #ffffff;
 			}
 
@@ -3148,9 +3148,12 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
-		background-color: #00c4cc;
-		color: #fff;
+		/* background-attachment: scroll,							fixed;
+		background-color: #ed1b24; */
+		background-image: url(../../images/1366_2000.jpg); 
+		background-repeat: no-repeat, repeat;
+		background-size: cover;
+		/*color: #fff;*/
 		padding: 2em 0 10em 0;
 		text-align: center;
 	}
@@ -3286,7 +3289,7 @@
 /* CTA */
 
 	#cta {
-		background: #00c4cc;
+		background: #ed1b24;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
