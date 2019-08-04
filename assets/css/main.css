@@ -3900,13 +3900,25 @@
 
 	}
 
-	.sponsor img{
+	.social_icon, .social_icon:link, .social_icon:visited{
+		border-bottom: 0px;
+		outline: none;
+	}
+
+	.social_icon img{
+		width: 50px;
+		margin: 10px;
+	}
+
+	.sponsor img, .social_icon img{
 		transition-property: transform;
 		transition-duration: 0.2s;
 		transition-timing-function: ease-out;
 	}
 
-	.sponsor img:hover{
+
+
+	.sponsor img:hover, .social_icon img:hover{
 		transition-property: transform;
 		transition-duration: 0.2s;
 		transform: scale(1.05);
